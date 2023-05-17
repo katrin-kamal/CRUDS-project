@@ -1,0 +1,106 @@
+*{
+   margin:0;
+   padding:0;
+ }
+
+ body{
+    background-color: #222;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+ }
+
+ .cruds{
+    width:80%;
+    height:100vh;
+    margin:auto;
+ }
+
+ .heading{
+    text-align: center;
+    text-transform: uppercase;
+    padding:20px;
+ }
+ input{
+    width: 100%;
+    height: 25px;
+    background-color: #111;
+    color: white;
+    margin:3px;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    padding:5px;
+    transition: .5s;
+ }
+ input:hover{
+    background-color: #000;
+    transform: scaleX(1.1);
+ }
+
+ .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+ #total{
+    background-color: rgb(132, 12, 12);
+    color:white;
+    border-radius: 4px;
+    padding: 6px;
+    margin-left: 5px;
+ }
+ 
+#total::before{
+    content:"total:";
+}
+button{
+    background-color: rgb(6, 85, 16);
+    color: white;
+    cursor: pointer;
+    width:100%;
+    height: 30px;
+    border-radius: 10px;
+    border:0;
+    transition: .5s ;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-left: 7px;
+    text-transform: uppercase;
+    margin:3px 3px;
+}
+button:hover{
+    background-color:rgb(8, 144, 47);
+    cursor: pointer;
+    scale: 1.1;
+    letter-spacing: 2px;
+    font-weight:bold ;
+}
+.btnsearch{
+    display:flex ;
+    justify-content:space-around ;
+}
+.btnsearch button{
+    width:50%;
+}
+
+table{
+    width:100%;
+    text-align: center;
+    margin:10px 0;
+}
+ tr th{
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+tr td{
+    width: 8%;
+    padding: 5px;
+}
+
+
+
+
+
+
+ 
